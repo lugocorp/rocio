@@ -41,13 +41,26 @@ h2{
 }
 
 /* Splash */
+.splash-wrapper{
+  position:relative;
+}
 .splash{
+  filter:brightness(50%);
   width:100%;
+}
+.logo{
+  border-radius:15px;
+  transform:translate(-50%,-50%);
+  position:absolute;
+  height:80%;
+  left:50%;
+  top:50%;
 }
 
 /* Background */
 .about{
   margin:25px 5%;
+  overflow:auto;
 }
 .about .caption{
   background-color:var(--faint);
